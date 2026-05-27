@@ -9,3 +9,8 @@ Given a resume (pdf) and a job description we want to find out the critical gaps
 
 ### web app UX
 <img width="1395" height="782" alt="Screenshot 2026-05-27 at 1 17 07 PM" src="https://github.com/user-attachments/assets/f2e924e5-b3a8-41a0-b99e-e3f25a987118" />
+
+### how to run it locally
+will eventually deploy it but for now here are the steps to run this locally.
+1. install all the libraries using pip or pip3. `pip install streamlit pdfplumber beautifulsoup4 requests` `pip install -U google-generativeai`
+2. run using streamlit. `streamlit run app.py`
