@@ -13,5 +13,5 @@ Given a resume (pdf) and a job description we want to find out the critical gaps
 ### how to run it locally
 will eventually deploy it but for now here are the steps to run this locally.
 1. install all the libraries using pip or pip3. `pip install streamlit pdfplumber beautifulsoup4 requests` `pip install -U google-generativeai`
-2. get a gemini api key. create save it under '.streamlit/secrets.toml'. `GEMINI_API_KEY = "<your key>"`
+2. get a gemini api key. create a file and save it there '.streamlit/secrets.toml'. `GEMINI_API_KEY = "<your key>"`
 3. run using streamlit. `streamlit run app.py`
