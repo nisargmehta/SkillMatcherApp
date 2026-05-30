@@ -21,7 +21,7 @@ def get_gemini_analysis(resume_sections, jd_text):
     Skills: {resume_sections['SKILLS']}
 
     TASK:
-    1. Identify the top 8 essential hard skills/requirements from the JD.
+    1. Identify the top 8 essential hard skills/requirements from the JD. Think like the hiring manager for the role.
     2. Categorize as: 'Matched in Experience', 'Matched in Skills Only', or 'Missing'.
     3. Provide a brief 'Why' for missing skills.
 
